@@ -2,6 +2,8 @@ import { faCoins, faFileAlt, faHome, faMoneyBillAlt, faUserCheck, faUserClock } 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
+import {FaDev} from "react-icons/fa";
+
 export default () => {
   return (
     <section className="plans-section" id="">
@@ -41,7 +43,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_3">
-                  <FontAwesomeIcon icon="fa-brands fa-dev" />
+                  <FaDev />
                 </div>
                 <div className="text text_belarus">
                   Full-cycle

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarkerAlt, faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
-import React from 'react'
+import React from 'react';
+import {FaFacebookF, FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa";
 
 export default () => {
   return (
@@ -144,10 +145,7 @@ export default () => {
                               itemprop="sameAs"
                               href="https://fb.me/HanaTech"
                             >
-                              <i
-                                className="fab fa-facebook-f"
-                                aria-hidden="true"
-                              ></i>
+                              <FaFacebookF style={{color: 'white'}}/>
                             </a>
                           </li>
                           <li>
@@ -155,7 +153,7 @@ export default () => {
                               itemprop="sameAs"
                               href="https://twitter.com/HanaTech"
                             >
-                              <i className="fab fa-twitter" aria-hidden="true"></i>
+                              <FaTwitter style={{color: 'white'}}/>
                             </a>
                           </li>
                           <li>
@@ -163,10 +161,7 @@ export default () => {
                               itemprop="sameAs"
                               href="http://Www.instagram.com/HanaTech/"
                             >
-                              <i
-                                className="fab fa-instagram"
-                                aria-hidden="true"
-                              ></i>
+                              <FaInstagram style={{color: 'white'}}/>
                             </a>
                           </li>
                           <li>
@@ -174,10 +169,7 @@ export default () => {
                               itemprop="sameAs"
                               href="http://linkedin.com/company/flyoutsourcing1"
                             >
-                              <i
-                                className="fab fa-linkedin-in"
-                                aria-hidden="true"
-                              ></i>
+                              <FaLinkedin style={{color: 'white'}}/>
                             </a>
                           </li>
                         </ul>
