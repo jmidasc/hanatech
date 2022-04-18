@@ -34,7 +34,7 @@ export default () => {
                 </div>
                 <div className="text text_belarus">
                   Secure NDA and service
-                  <br /> contract under US protection
+                  <br /> contract under China protection
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default () => {
                 </div>
                 <div className="text text_belarus">
                   Physical offices <br />
-                  in the US &amp; Belarus
+                  in the China &amp; Belarus
                 </div>
               </div>
             </div>

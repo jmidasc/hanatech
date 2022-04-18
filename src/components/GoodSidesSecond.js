@@ -42,7 +42,7 @@ export default () => {
                       </div>
                       <div className="text text_belarus">
                         Secure NDA and contract
-                        <br /> under US protection
+                        <br /> under China protection
                       </div>
                     </div>
                   </div>
