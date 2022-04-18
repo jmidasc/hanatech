@@ -1,10 +1,15 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
-const headStyle = {
-  paddingTop: '15px',
-  fontSize: '25px',
+import { FaHeading } from 'react-icons/fa'
+
+const logoStyle = {
+  color:'#008ed5', 
+  fontSize:'28px',
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'flex-end',
 }
+
 export default ({ headerType }) => {
   const navigator = useNavigate()
 
@@ -17,8 +22,9 @@ export default ({ headerType }) => {
         <div className="auto-container">
           <div className="outer-container clearfix">
             <div className="logo-box">
-              <div className="logo" style={headStyle}>
-                Beijing Hana Sci-Tech Trade LTD
+              <div className="logo" style={logoStyle}>
+                <FaHeading style={{fontSize:'42px', marginTop:''}}/>
+                <div>ana Sci-Tech</div>
               </div>
             </div>
 
