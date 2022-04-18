@@ -1,0 +1,28 @@
+.hero__inner {
+    position: relative;
+    background: linear-gradient(166.75deg, #642BEB 2.41%, #4E77EE 48.18%, #00D9EC 94.91%);
+    padding: 180px 0 40px 0;
+    overflow: hidden;
+}
+
+.hero .hero__bgdots {
+    position: absolute;
+    top: 100px;
+}
+
+.hero .hero__bg {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.hero__title {
+    position: relative;
+    z-index: 5;
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 125%;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
