@@ -21,10 +21,11 @@ export default () => {
             <Carousel
               infiniteLoop
               autoPlay
-              centerMode
               showThumbs={false}
               showStatus={false}
               showArrows={false}
+              swipeable={true}
+              emulateTouch={true}
             >
               <div>
                 <img src="/assets/fly2.jpg" />
@@ -41,7 +42,7 @@ export default () => {
             <div className="feature-block-one">
               <div className="inner-box">
                 <div className="text">
-                  Flyoutsourcing is a custom offshore software development
+                HanaTech is a custom offshore software development
                   company that provides nimble and results-driven technology and
                   staffing solutions to tech software companies, startups, and
                   SMEs. We handle your full software development life cycle

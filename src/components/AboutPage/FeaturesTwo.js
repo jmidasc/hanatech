@@ -13,7 +13,7 @@ export default () => {
                 world in order to survive.
               </p>
               <p>
-                Flyoutsourcing understands this need. Our scalable software
+                HanaTech understands this need. Our scalable software
                 development solutions are made to fit your specific needs. We
                 have the perfect solution for your needs, whether you’re a
                 startup that needs help with their first app or a big tech

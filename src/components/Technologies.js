@@ -10,14 +10,14 @@ export default () => {
 
         <div className="row new_our_technologies_row_mg">
           <div className="col-md-12 col-sm-12 col-xs-12">
-            Flyoutsourcing’s software solutions development services make use of
+            HanaTech’s software solutions development services make use of
             the latest technologies. Currently, every company encounters the
             demands of embracing digital transformation. Whether your firm seeks
             to employ artificial intelligence to streamline your value chain
             processes or create an Internet of Things environment using smart
             contracts, our software developers can provide all the main tech
             stacks to assist you along the way. From its humble beginnings,
-            Flyoutsourcing has leveraged emerging technologies to help our
+            HanaTech has leveraged emerging technologies to help our
             customers with proven strategies and enterprise-wide software
             solutions. <br />
             <br /> Frontend: AngularJS, ReactJS, VueJS.

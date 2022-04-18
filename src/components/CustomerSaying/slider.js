@@ -29,14 +29,14 @@ export default () => {
               </b>
               <br />
               <b>Project summary:</b> <br />
-              Flyoutsourcing supplemented the internal team's development
+              HanaTech supplemented the internal team's development
               capabilities, creating a profile builder for a large technical stock
               exchange solution. The builder would develop financial reports in
               real-time.
               <br />
               <br />
               <b>Feedback summary:</b> <br />
-              Despite the complexity of the project, Flyoutsourcing managed to
+              Despite the complexity of the project, HanaTech managed to
               integrate external services into the solution and enhance its
               overall performance. The team developed the platform quickly and
               even implemented new business features. They communicated openly
@@ -61,7 +61,7 @@ export default () => {
               </b>
               <br />
               <b>Project summary:</b> <br />
-              Flyoutsourcing developed a complex client-owned extension to the
+              HanaTech developed a complex client-owned extension to the
               Microsoft Office suite that allows a network of around 10,000
               corporate clients to manage their own schedules and interact with
               one another's.
@@ -69,7 +69,7 @@ export default () => {
               <br />
               <b>Feedback summary:</b> <br />
               The product has made client operations more efficient across the
-              board. Flyoutsourcing is flexible and professional, maintaining
+              board. HanaTech is flexible and professional, maintaining
               constant communication throughout the project and prioritizing
               incorporating client feedback into their work.
             </div>
@@ -97,7 +97,7 @@ export default () => {
               client on-boarding process is always time consuming... <br />
               <br />
               <b>Feedback summary:</b> <br />
-              We have been working with the Flyoutsourcing within last 6 month.
+              We have been working with the HanaTech within last 6 month.
               The have re-wrote core components and what is more important for us,
               have setup appropriate continuous integration and delivery
               processes. It’s probably too early feedback, but we are happy and

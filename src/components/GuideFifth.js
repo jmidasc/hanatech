@@ -8,7 +8,7 @@ export default () => {
           <div className="text-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div className="inner">
               <h2 className="margin_title">
-                Reach new heights with Flyoutsourcing
+                Reach new heights with HanaTech
               </h2>
               <div className="text">
                 <p>

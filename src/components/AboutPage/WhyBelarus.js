@@ -23,7 +23,7 @@ export default () => {
                     hubs.
                   </p>
                   <p>
-                    At Flyoutsourcing, our CEO and developers work hand-in-hand
+                    At HanaTech, our CEO and developers work hand-in-hand
                     with you to complete your project and run your operations
                     successfully at a much affordable price compared to our
                     counterparts. Our CEO personally oversees all projects and

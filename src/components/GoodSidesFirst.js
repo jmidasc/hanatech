@@ -5,7 +5,7 @@ export default () => {
     <section className="clients-section bg_dark_l" id="features">
       <div className="auto-container">
         <div className="sec-title-two centered">
-          <h2>Why choose Flyoutsourcing</h2>
+          <h2>Why choose HanaTech</h2>
         </div>
 
         <div className="row clearfix">

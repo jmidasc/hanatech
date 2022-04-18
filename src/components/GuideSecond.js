@@ -13,7 +13,7 @@ export default () => {
               </h2>
               <div className="text">
                 <p>
-                  With Flyoutsourcing, recruiting your dream team of developers
+                  With HanaTech, recruiting your dream team of developers
                   doesn’t have to be difficult. Just like having pizza
                   delivered, you only need to tell us how many developers you
                   need and what type of projects they’ll work on. In less than 5

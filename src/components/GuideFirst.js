@@ -33,12 +33,12 @@ export default () => {
               problems?
             </p>
             <i>
-              With Flyoutsourcing, we offer solutions that are unique and
+              With HanaTech, we offer solutions that are unique and
               scalable to your current demands. Whether it’s an extra skilled
               developer or a team, help with a specific development stage, or
               full-cycle development you need, we’ll take care of it for you.
               All this at a much affordable rate than doing them in-house. Save
-              time and money when you work with Flyoutsourcing.
+              time and money when you work with HanaTech.
             </i>
           </div>
         </div>

@@ -6,7 +6,7 @@ export default () => {
       <div className="auto-container">
         <div className="sec-title-two centered">
           <h2>
-            Working with Flyoutsourcing is simple with our 4-step developer
+            Working with HanaTech is simple with our 4-step developer
             hiring process
           </h2>
         </div>
