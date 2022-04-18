@@ -1,12 +1,18 @@
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 const headStyle = {
-  paddingTop: "15px",
-  fontSize: "25px"
+  paddingTop: '15px',
+  fontSize: '25px',
 }
-export default () => {
+export default ({ headerType }) => {
+  const navigator = useNavigate()
+
   return (
-    <header className="main-header header-style-two" style={{position:'fixed'}}>
+    <header
+      className="main-header header-style-two"
+      style={{ position: 'fixed' }}
+    >
       <div className="main-box">
         <div className="auto-container">
           <div className="outer-container clearfix">
@@ -32,9 +38,30 @@ export default () => {
                 </div>
                 <div className="navbar-collapse collapse scroll-nav clearfix">
                   <ul className="navigation clearfix">
-                    <li>
-                      <a href="about-us.html">About us</a>
-                    </li>
+                    {headerType === 'first-page' && (
+                      <li>
+                        <a
+                          href=""
+                          onClick={() => {
+                            navigator('/about-page', { replace: false })
+                          }}
+                        >
+                          About us
+                        </a>
+                      </li>
+                    )}
+                    {headerType === 'about-page' && (
+                      <li>
+                        <a
+                          href=""
+                          onClick={() => {
+                            navigator('/', { replace: false })
+                          }}
+                        >
+                          First Page
+                        </a>
+                      </li>
+                    )}
                   </ul>
                 </div>
               </nav>
@@ -43,7 +70,11 @@ export default () => {
                 <a href="" className="header_links">
                   Hire developer
                 </a>
-                <a href="" className="header_links" style={{ marginLeft: '5px' }}>
+                <a
+                  href=""
+                  className="header_links"
+                  style={{ marginLeft: '5px' }}
+                >
                   Outsource project
                 </a>
               </div>
@@ -52,7 +83,7 @@ export default () => {
                   Hire developer
                 </a>
                 <a href="" className="header_links">
-                  Outsource project 
+                  Outsource project
                 </a>
               </div>
             </div>

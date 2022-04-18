@@ -16,23 +16,22 @@ import Footer from '../components/Footer'
 
 export default () => {
     return (
-      // <>
-      //   <Header headerType={'first-page'}/>
-      //   <MainBanner />
-      //   <GuideFirst />
-      //   <GuideSecond />
-      //   <GuideThird />
-      //   <GoodSidesFirst />
-      //   <GuideFourth />
-      //   <GuideFifth />
-      //   <GoodSidesSecond />
-      //   <CustomerSays />
-      //   <OffshoreServices />
-      //   <Technologies />
-      //   <InvoiceSection />
-      //   <Footer />
-      // </>
-      <div>hello</div>
+      <>
+        <Header headerType={'first-page'}/>
+        <MainBanner />
+        <GuideFirst />
+        <GuideSecond />
+        <GuideThird />
+        <GoodSidesFirst />
+        <GuideFourth />
+        <GuideFifth />
+        <GoodSidesSecond />
+        <CustomerSays />
+        <OffshoreServices />
+        <Technologies />
+        <InvoiceSection />
+        <Footer />
+      </>
     );
   }
   
