@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock, faFileAlt, faHeadset, faMoneyBillAlt, faUsers } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
 export default () => {
@@ -26,7 +28,7 @@ export default () => {
                   <div className="col-md-6 col-sm-6 col-xs-12">
                     <div className="inner-box-bel">
                       <div className="icon-container bg_4">
-                        <i className="fas fa-money-bill-alt" aria-hidden="true"></i>
+                        <FontAwesomeIcon icon={faMoneyBillAlt}></FontAwesomeIcon>
                       </div>
                       <div className="text text_belarus">
                         Guaranteed fixed and best rates
@@ -36,7 +38,7 @@ export default () => {
                   <div className="col-md-6 col-sm-6 col-xs-12">
                     <div className="inner-box-bel">
                       <div className="icon-container bg_6">
-                        <i className="far fa-file-alt" aria-hidden="true"></i>
+                        <FontAwesomeIcon icon={faFileAlt}></FontAwesomeIcon>
                       </div>
                       <div className="text text_belarus">
                         Secure NDA and contract
@@ -48,7 +50,8 @@ export default () => {
                   <div className="col-md-6 col-sm-6 col-xs-12">
                     <div className="inner-box-bel">
                       <div className="icon-container bg_5">
-                        <i className="fas fa-headset" aria-hidden="true"></i>
+                        <FontAwesomeIcon icon={faHeadset}></FontAwesomeIcon>
+                      
                       </div>
                       <div className="text text_belarus">
                         24/7 service and support
@@ -58,7 +61,8 @@ export default () => {
                   <div className="col-md-6 col-sm-6 col-xs-12">
                     <div className="inner-box-bel">
                       <div className="icon-container bg_3">
-                        <i className="fas fa-users" aria-hidden="true"></i>
+                        <FontAwesomeIcon icon={faUsers}></FontAwesomeIcon>
+                      
                       </div>
                       <div className="text text_belarus">
                         Hire developers as long as you need{' '}
@@ -69,7 +73,8 @@ export default () => {
                   <div className="col-md-6 col-sm-6 col-xs-12">
                     <div className="inner-box-bel">
                       <div className="icon-container bg_1">
-                        <i className="fas fa-clock" aria-hidden="true"></i>
+                        <FontAwesomeIcon icon={faClock}></FontAwesomeIcon>
+                      
                       </div>
                       <div className="text text_belarus">Free pilot period</div>
                     </div>

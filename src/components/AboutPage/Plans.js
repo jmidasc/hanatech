@@ -1,3 +1,5 @@
+import { faCoins, faFileAlt, faHome, faMoneyBillAlt, faUserCheck, faUserClock } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 export default () => {
@@ -13,7 +15,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_1">
-                  <i className="fas fa-money-bill-alt" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faMoneyBillAlt}></FontAwesomeIcon>
                 </div>
                 <div className="text text_belarus">
                   Transparent low rates
@@ -26,7 +28,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_2">
-                  <i className="far fa-file-alt" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faFileAlt}></FontAwesomeIcon>
                 </div>
                 <div className="text text_belarus">
                   Secure NDA and service
@@ -39,7 +41,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_3">
-                  <i className="fab fa-dev" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon="fa-brands fa-dev" />
                 </div>
                 <div className="text text_belarus">
                   Full-cycle
@@ -52,7 +54,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_4">
-                  <i className="fas fa-coins" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faCoins}></FontAwesomeIcon>
                 </div>
                 <div className="text text_belarus">
                   Free
@@ -65,7 +67,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_5">
-                  <i className="fas fa-user-clock" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faUserClock}></FontAwesomeIcon>
                 </div>
                 <div className="text text_belarus">
                   24/7 <br />
@@ -78,7 +80,7 @@ export default () => {
             <div className="inner-box">
               <div className="inner-box-bel">
                 <div className="icon-container bg_6">
-                  <i className="fas fa-home" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>
                 </div>
                 <div className="text text_belarus">
                   Physical offices <br />

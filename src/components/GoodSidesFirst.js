@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileExport, faMoneyBillAlt, faUsers, faSearchPlus, faStopwatch } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
 export default () => {
@@ -12,7 +14,7 @@ export default () => {
           <div className="service-style-three col-md-offset-1 col-md-2 col-sm-6 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-search-plus" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faSearchPlus} style={{fontSize: '40px', color: '#0792db'}}></FontAwesomeIcon>
               </div>
               <h3>Scalability</h3>
               <div className="text">
@@ -24,7 +26,7 @@ export default () => {
           <div className="service-style-three col-md-2 col-sm-6 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-money-bill-alt" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faMoneyBillAlt} style={{fontSize: '40px', color: '#0792db'}}></FontAwesomeIcon>
               </div>
               <h3>Reduced operating costs</h3>
               <div className="text">
@@ -36,7 +38,7 @@ export default () => {
           <div className="service-style-three col-md-2 col-sm-6 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-users" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faUsers} style={{fontSize: '40px', color: '#0792db'}}></FontAwesomeIcon>
               </div>
               <h3>Reliable dedicated development team</h3>
               <div className="text">
@@ -47,7 +49,7 @@ export default () => {
           <div className="service-style-three col-md-2 col-sm-6 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-file-export" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faFileExport} style={{fontSize: '40px', color: '#0792db'}}></FontAwesomeIcon>
               </div>
               <h3>Easy to implement</h3>
               <div className="text">
@@ -59,7 +61,7 @@ export default () => {
           <div className="service-style-three col-md-2 col-sm-6 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-stopwatch" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faStopwatch} style={{fontSize: '40px', color: '#0792db'}}></FontAwesomeIcon>
               </div>
               <h3>Faster production time</h3>
               <div className="text">

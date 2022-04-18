@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock, faCoins, faUsers } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
 export default () => {
@@ -14,7 +16,7 @@ export default () => {
           <div className="plan-column col-md-4 col-sm-4 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-coins icons_new_20" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faCoins} style={{fontSize: '50px'}}></FontAwesomeIcon>
               </div>
               <h3>Save as much as 70% on operational expenses</h3>
             </div>
@@ -22,7 +24,7 @@ export default () => {
           <div className="plan-column col-md-4 col-sm-4 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-clock icons_new_20" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faClock} style={{fontSize: '50px'}}></FontAwesomeIcon>
               </div>
               <h3>
                 Only 2-5 days
@@ -33,7 +35,7 @@ export default () => {
           <div className="plan-column col-md-4 col-sm-4 col-xs-12">
             <div className="inner-box">
               <div className="icon">
-                <i className="fas fa-users icons_new_20" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faUsers} style={{fontSize: '50px'}}></FontAwesomeIcon>
               </div>
               <h3>
                 100% customer satisfaction

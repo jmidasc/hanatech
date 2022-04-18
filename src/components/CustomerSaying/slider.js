@@ -3,6 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 import './slider.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt, faUser } from '@fortawesome/free-solid-svg-icons';
 export default () => {
 
   return (
@@ -24,7 +26,7 @@ export default () => {
               <b>
                 Profile Builder for Large-Scale Stock Exchange Platform{' '}
                 <a href="https://clutch.co/profile/flyoutsourcing#review-1181877">
-                  <i className="fas fa-external-link-alt" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                 </a>
               </b>
               <br />
@@ -44,7 +46,7 @@ export default () => {
             </div>
             <div className="quote-info">
               <figure className="thumb img-circle">
-                <i className="fas fa-user" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
               </figure>
               <h4>Kevin Peterson</h4>
               <div className="designation">Feb. - Sept. 2019</div>
@@ -56,7 +58,7 @@ export default () => {
               <b>
                 Software Development for IT Tech Developer{' '}
                 <a href="https://clutch.co/profile/flyoutsourcing#review-1109367">
-                  <i className="fas fa-external-link-alt" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                 </a>
               </b>
               <br />
@@ -75,7 +77,7 @@ export default () => {
             </div>
             <div className="quote-info">
               <figure className="thumb img-circle">
-                <i className="fas fa-user" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
               </figure>
               <h4>Kevin Peterson</h4>
               <div className="designation">Feb. - Sept. 2019</div>
@@ -87,7 +89,7 @@ export default () => {
               <b>
                 Web application rewrite{' '}
                 <a href="https://clutch.co/profile/flyoutsourcing#review-1181877">
-                  <i className="fas fa-external-link-alt" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                 </a>
               </b>
               <br />
@@ -105,7 +107,7 @@ export default () => {
             </div>
             <div className="quote-info">
               <figure className="thumb img-circle">
-                <i className="fas fa-user" aria-hidden="true"></i>
+                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
               </figure>
               <h4>Robert Maison</h4>
               <div className="designation">Mar. - Sept. 2019</div>

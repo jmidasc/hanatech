@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faMapMarkerAlt, faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
 export default () => {
@@ -38,12 +40,9 @@ export default () => {
                             itemScope=""
                             itemtype="http://schema.org/PostalAddress"
                           >
-                            <i
-                              className="fas fa-map-marker-alt"
-                              aria-hidden="true"
-                            ></i>
+                            <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
                             <sapn itemprop="addressLocality">
-                              China{' '}
+                            &nbsp;China{' '}
                               <sapn itemprop="streetAddress">
                                 {' '}
                                 214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China 北京市朝阳区望京西园三区315-316号楼2层E号内214,
@@ -51,25 +50,24 @@ export default () => {
                             </sapn>
                           </p>
                           <p>
-                            <i className="fab fa-viber" aria-hidden="true"></i>
-                            <i className="fab fa-skype" aria-hidden="true"></i>
+                            <FontAwesomeIcon icon={ faPhoneFlip }></FontAwesomeIcon>
                             <a
                               className="contacts_color"
                               itemprop="telephone"
                               content="+8615712806775"
                               href="tel:+8615712806775"
                             >
-                              +8615712806775
+                              &nbsp;+8615712806775
                             </a>
                           </p>
                           <p>
-                            <i className="far fa-envelope" aria-hidden="true"></i>
+                            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                             <a
                               className="contacts_color"
                               itemprop="email"
                               href="mailto:hi@HanaTech.com"
                             >
-                              hi@HanaTech.com
+                              &nbsp;hi@HanaTech.com
                             </a>
                           </p>
                         </div>
@@ -93,38 +91,34 @@ export default () => {
                             itemScope=""
                             itemtype="http://schema.org/PostalAddress"
                           >
-                            <i
-                              className="fas fa-map-marker-alt"
-                              aria-hidden="true"
-                            ></i>
+                          <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
                             <sapn itemprop="addressLocality">
-                              Belarus{' '}
+                            &nbsp;Belarus{' '}
                               <sapn itemprop="streetAddress">
                                 Grodno, Kirova 3 suit 4
                               </sapn>
                             </sapn>
                           </p>
                           <p>
-                            <i className="fab fa-viber" aria-hidden="true"></i>
-                            <i className="fab fa-skype" aria-hidden="true"></i>
+                            <FontAwesomeIcon icon={ faPhoneFlip }></FontAwesomeIcon>
                             <a
                               className="contacts_color"
                               itemprop="telephone"
                               content="+1720 296 0727"
                               href="tel:+1720 296 0727"
                             >
-                              +1720 296 0727
+                              &nbsp;+1720 296 0727
                             </a>
                           </p>
 
                           <p>
-                            <i className="far fa-envelope" aria-hidden="true"></i>
+                            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                             <a
                               className="contacts_color"
                               itemprop="email"
                               href="mailto:hi@HanaTech.com"
                             >
-                              hi@HanaTech.com
+                              &nbsp;hi@HanaTech.com
                             </a>
                           </p>
                         </div>
