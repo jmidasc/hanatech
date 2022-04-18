@@ -6,6 +6,30 @@
     width: 885px;
 }
 
+.quote-info
+{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quote-thumb
+{
+    left: 0px;
+    top: 0px;
+    width: 74px;
+    height: 74px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding-top: 10px;	
+}
+
+.designation
+{
+    font-size: 14px;
+    color: #008ed5
+}
+
 .quote-icon
 {
     position: relative;

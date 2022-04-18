@@ -1560,7 +1560,7 @@ img{
 	color:#3b566e;	
 }
 
-.testimonials-carousel-one .info-column .info .thumb{
+.testimonials-carousel-one .info-column .info .quote-thumb{
 	position:absolute;
 	left:0px;
 	top:0px;
@@ -2269,7 +2269,7 @@ img{
 	padding-top:10px;
 }
 
-.testimonial-style-two .slide-item .quote-info .thumb{
+.testimonial-style-two .slide-item .quote-info .quote-thumb{
 	position: absolute;
     left: 0px;
     top: 0px;
@@ -2279,7 +2279,7 @@ img{
     text-align: center;
     padding-top: 10px;	
 }
-.testimonial-style-two .slide-item .quote-info .thumb i{
+.testimonial-style-two .slide-item .quote-info .quote-thumb i{
         font-size: 40px;
 }
 .testimonial-style-two .slide-item .quote-info h4{

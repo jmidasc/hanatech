@@ -5,6 +5,12 @@ import './slider.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faUser } from '@fortawesome/free-solid-svg-icons';
+
+const fontStyle = {
+  fontSize: '40px',
+  color: '#008ed4'
+}
+
 export default () => {
 
   return (
@@ -22,7 +28,7 @@ export default () => {
               >
           <div className="slider-inner">
             <div className="quote-icon"></div>
-            <div className="text" style={{ marginBottom: '45px' }}>
+            <div className="text" style={{ marginBottom: '45px', textAlign:'left' }}>
               <b>
                 Profile Builder for Large-Scale Stock Exchange Platform{' '}
                 <a href="https://clutch.co/profile/flyoutsourcing#review-1181877">
@@ -45,16 +51,18 @@ export default () => {
               with all parties, including the end client.
             </div>
             <div className="quote-info">
-              <figure className="thumb img-circle">
-                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+              <figure className="quote-thumb img-circle">
+                <FontAwesomeIcon icon={faUser} style={fontStyle}></FontAwesomeIcon>
               </figure>
-              <h4>Kevin Peterson</h4>
-              <div className="designation">Feb. - Sept. 2019</div>
+              <div style={{ display:'flex', flexDirection:'column', alignItems:'flex-start'}}>
+                <h4>Kevin Peterson</h4>
+                <div className="designation">Feb. - Sept. 2019</div>
+              </div>
             </div>
           </div>
           <div className="slider-inner">
             <div className="quote-icon"></div>
-            <div className="text">
+            <div className="text" style={{ marginBottom: '45px', textAlign:'left'}}>
               <b>
                 Software Development for IT Tech Developer{' '}
                 <a href="https://clutch.co/profile/flyoutsourcing#review-1109367">
@@ -76,16 +84,18 @@ export default () => {
               incorporating client feedback into their work.
             </div>
             <div className="quote-info">
-              <figure className="thumb img-circle">
-                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+              <figure className="quote-thumb img-circle">
+                <FontAwesomeIcon icon={faUser} style={fontStyle}></FontAwesomeIcon>
               </figure>
-              <h4>Kevin Peterson</h4>
-              <div className="designation">Feb. - Sept. 2019</div>
+              <div style={{ display:'flex', flexDirection:'column', alignItems:'flex-start'}}>
+                <h4>Kevin Peterson</h4>
+                <div className="designation">Feb. - Sept. 2019</div>
+              </div>
             </div>
           </div>
           <div className="slider-inner">
             <div className="quote-icon"></div>
-            <div className="text">
+            <div className="text" style={{marginBottom: '45px', textAlign:'left'}}>
               <b>
                 Web application rewrite{' '}
                 <a href="https://clutch.co/profile/flyoutsourcing#review-1181877">
@@ -106,11 +116,13 @@ export default () => {
               will continue to grab your experience! Thanks!
             </div>
             <div className="quote-info">
-              <figure className="thumb img-circle">
-                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+              <figure className="quote-thumb img-circle">
+                <FontAwesomeIcon icon={faUser} style={fontStyle}></FontAwesomeIcon>
               </figure>
-              <h4>Robert Maison</h4>
-              <div className="designation">Mar. - Sept. 2019</div>
+              <div style={{ display:'flex', flexDirection:'column', alignItems:'flex-start'}}>
+                <h4>Robert Maison</h4>
+                <div className="designation">Mar. - Sept. 2019</div>
+              </div>
             </div>
           </div>
         </Carousel>

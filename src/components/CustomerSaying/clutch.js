@@ -9,6 +9,7 @@ import './clutch.css';
 const carouselProp = {
   showStatus: false,
   infiniteLoop: true,
+  showIndicators: false,
   renderArrowPrev: (clickHandler, hasPrev, label) => {
     return (
       <div className="arrow-left" onClick={clickHandler}>
@@ -31,7 +32,7 @@ export default () => {
     <div className="clutch">
       <div className='clutch-header'>Clutch</div>
       <div className='clutch-content'>
-        <div className='clutch-subheader'>Flyoutsourcing</div>
+        <div className='clutch-subheader'>HanaTech</div>
         <div className='clutch-formatter'>
           <div className='star-container'>
             <div className='star-one'>
@@ -57,7 +58,7 @@ export default () => {
             >
             <div className='text-container'>
               <div className='text-content'>
-                "Flyoutsourcing truly had some of the most professional people I’ve worked with."
+                "HanaTech truly had some of the most professional people I’ve worked with."
               </div>
               <div className='text-author'>
                 Project Manager, Publishing Company
@@ -65,7 +66,7 @@ export default () => {
             </div>
             <div className='text-container'>
               <div className='text-content'>
-                "Flyoutsourcing truly had some of the most professional people I’ve worked with."
+                "HanaTech truly had some of the most professional people I’ve worked with."
               </div>
               <div className='text-author'>
                 Project Manager, Publishing Company
@@ -73,7 +74,7 @@ export default () => {
             </div>
             <div className='text-container'>
               <div className='text-content'>
-                "Flyoutsourcing truly had some of the most professional people I’ve worked with."
+                "HanaTech truly had some of the most professional people I’ve worked with."
               </div>
               <div className='text-author'>
                 Project Manager, Publishing Company
