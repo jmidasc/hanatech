@@ -78,7 +78,7 @@ export default () => {
         </div>
         <div className="bottom-container">
             <div className="img-container">
-              <Carousel responsive={responsive} arrows={false} autoPlay={true} draggable={true} infinite={true} autoPlaySpeed={2000}>
+              <Carousel responsive={responsive} arrows={false} autoPlay={true} infinite={true} autoPlaySpeed={1500}>
                 {imgList.map((name) => ( <img className="img-display" alt="" src={name}/>))}
               </Carousel>
             </div>
