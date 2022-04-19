@@ -263,6 +263,9 @@
   border-radius: 50%;
   font-size: 30px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bg_1 {
   background: #fd6d51;
