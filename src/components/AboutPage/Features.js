@@ -28,13 +28,13 @@ export default () => {
               emulateTouch={true}
             >
               <div>
-                <img src="/assets/fly2.jpg" />
+                <img src="/assets/01.jpeg" />
               </div>
               <div>
-                <img src="/assets/fly2.jpg" />
+                <img src="/assets/02.jpeg" />
               </div>
               <div>
-                <img src="/assets/fly2.jpg" />
+                <img src="/assets/03.jpeg" />
               </div>
             </Carousel>
           </div>
