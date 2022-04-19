@@ -6,7 +6,6 @@ import FeaturesTwo from '../components/AboutPage/FeaturesTwo';
 import Plans from '../components/AboutPage/Plans';
 import InvoiceSection from '../components/InvoiceSection'
 import Footer from '../components/Footer'
-import WhyBelarus from '../components/AboutPage/WhyBelarus';
 
 export default () => {
     return (
@@ -16,7 +15,6 @@ export default () => {
         <Features />
         <Plans />
         <FeaturesTwo />
-        <WhyBelarus />
         <InvoiceSection />
         <Footer />
       </>

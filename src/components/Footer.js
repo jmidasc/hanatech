@@ -1,7 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarkerAlt, faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import {FaFacebookF, FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa";
+import { FaHeading } from "react-icons/fa";
+const logoStyle = {
+  color:'#ffffff', 
+  fontSize:'28px',
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'flex-end',
+}
 
 export default () => {
   return (
@@ -20,11 +27,10 @@ export default () => {
       <div className="footer-upper new_footer-upper">
         <div className="auto-container">
           <div className="new_footer-logo_wrapper">
-            <img
-              src="/assets/newfooterflyoutsourcing_logo.png"
-              alt=""
-              className="new_expertiseicon_margin"
-            />
+            <div className="logo" style={logoStyle}>
+              <FaHeading style={{fontSize:'42px', marginTop:''}}/>
+              <div>ana Sci-Tech</div>
+            </div>
           </div>
 
           <div className="row clearfix">
@@ -72,107 +78,6 @@ export default () => {
                             </a>
                           </p>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="big-column col-md-6 col-sm-12 col-xs-12">
-              <div className="row clearfix">
-                <div className="footer-column col-md-7 col-sm-12 col-xs-12">
-                  <div className="footer-widget links-widget">
-                    <div className="widget-inner">
-                      <div className="links">
-                        <p className="new_footer_heading">Belarus</p>
-                        <div className="footer-upper_div new_footer-upper_div">
-                          <p
-                            itemprop="address"
-                            itemScope=""
-                            itemtype="http://schema.org/PostalAddress"
-                          >
-                          <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
-                            <sapn itemprop="addressLocality">
-                            &nbsp;Belarus{' '}
-                              <sapn itemprop="streetAddress">
-                                Grodno, Kirova 3 suit 4
-                              </sapn>
-                            </sapn>
-                          </p>
-                          <p>
-                            <FontAwesomeIcon icon={ faPhoneFlip }></FontAwesomeIcon>
-                            <a
-                              className="contacts_color"
-                              itemprop="telephone"
-                              content="+1720 296 0727"
-                              href="tel:+1720 296 0727"
-                            >
-                              &nbsp;+1720 296 0727
-                            </a>
-                          </p>
-
-                          <p>
-                            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-                            <a
-                              className="contacts_color"
-                              itemprop="email"
-                              href="mailto:hi@HanaTech.com"
-                            >
-                              &nbsp;hi@HanaTech.com
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="footer-column col-md-5 col-sm-12 col-xs-12">
-                  <div className="footer-widget follow-widget">
-                    <div className="widget-inner">
-                      <p className="q2 new_footer_heading new_q2">Follow</p>
-
-                      <div className="social-links">
-                        <ul className="clearfix q1">
-                          <li style={{display: 'none'}}>
-                            <link
-                              itemprop="url"
-                              href="http://www.your-company-site.com"
-                            />
-                          </li>
-                           <li>
-                            <a
-                              itemprop="sameAs"
-                              href="https://fb.me/HanaTech"
-                            >
-                              <FaFacebookF style={{color: 'white'}}/>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              itemprop="sameAs"
-                              href="https://twitter.com/HanaTech"
-                            >
-                              <FaTwitter style={{color: 'white'}}/>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              itemprop="sameAs"
-                              href="http://Www.instagram.com/HanaTech/"
-                            >
-                              <FaInstagram style={{color: 'white'}}/>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              itemprop="sameAs"
-                              href="http://linkedin.com/company/flyoutsourcing1"
-                            >
-                              <FaLinkedin style={{color: 'white'}}/>
-                            </a>
-                          </li>
-                        </ul>
                       </div>
                     </div>
                   </div>

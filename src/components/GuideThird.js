@@ -8,7 +8,7 @@ export default () => {
       <div className="auto-container">
         <div className="sec-title-two centered">
           <h2>
-            Drive 70% savings and efficiency when you work with Flyoutsourcing
+            Drive 70% savings and efficiency when you work with HanaTech
           </h2>
         </div>
 

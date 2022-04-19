@@ -31,7 +31,7 @@ export default () => {
             <div className="text" style={{ marginBottom: '45px', textAlign:'left' }}>
               <b>
                 Profile Builder for Large-Scale Stock Exchange Platform{' '}
-                <a href="https://clutch.co/profile/flyoutsourcing#review-1181877">
+                <a href="https://clutch.co/profile/HanaTech#review-1181877">
                   <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                 </a>
               </b>
@@ -65,7 +65,7 @@ export default () => {
             <div className="text" style={{ marginBottom: '45px', textAlign:'left'}}>
               <b>
                 Software Development for IT Tech Developer{' '}
-                <a href="https://clutch.co/profile/flyoutsourcing#review-1109367">
+                <a href="https://clutch.co/profile/HanaTech#review-1109367">
                   <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                 </a>
               </b>
@@ -98,7 +98,7 @@ export default () => {
             <div className="text" style={{marginBottom: '45px', textAlign:'left'}}>
               <b>
                 Web application rewrite{' '}
-                <a href="https://clutch.co/profile/flyoutsourcing#review-1181877">
+                <a href="https://clutch.co/profile/HanaTech#review-1181877">
                   <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                 </a>
               </b>
