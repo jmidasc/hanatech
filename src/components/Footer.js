@@ -40,7 +40,7 @@ export default () => {
                   <div className="footer-widget links-widget">
                     <div className="widget-inner">
                       <div className="links">
-                        <p className="new_footer_heading">China</p>
+                        <p className="new_footer_heading">Beijing Hana Sci-Tech Trade LTD, 北京哈纳科贸有限公司</p>
                         <div className="footer-upper_div new_footer-upper_div">
                           <p
                             itemprop="address"
@@ -49,7 +49,7 @@ export default () => {
                           >
                             <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
                             <sapn itemprop="addressLocality">
-                            &nbsp;China{' '}
+                            &nbsp;{' '}
                               <sapn itemprop="streetAddress">
                                 {' '}
                                 214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China 北京市朝阳区望京西园三区315-316号楼2层E号内214,
@@ -64,7 +64,7 @@ export default () => {
                               content="+8615712806775"
                               href="tel:+8615712806775"
                             >
-                              &nbsp;+8615712806775
+                              &nbsp;Wang Xu Dong, +8615712806775
                             </a>
                           </p>
                           <p>
