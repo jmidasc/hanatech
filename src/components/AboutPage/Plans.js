@@ -86,7 +86,7 @@ export default () => {
                 </div>
                 <div className="text text_belarus">
                   Physical offices <br />
-                  in the China &amp; Belarus
+                  in the China
                 </div>
               </div>
             </div>

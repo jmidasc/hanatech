@@ -1,13 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faMapMarkerAlt, faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { MdOutlineContactPhone } from 'react-icons/md'
 import React from 'react';
-import { FaHeading } from "react-icons/fa";
+
 const logoStyle = {
+  height: '75px',
   color:'#ffffff', 
-  fontSize:'28px',
   display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'flex-end',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  alignItems: 'flex-start',
 }
 
 export default () => {
@@ -28,19 +30,18 @@ export default () => {
         <div className="auto-container">
           <div className="new_footer-logo_wrapper">
             <div className="logo" style={logoStyle}>
-              <FaHeading style={{fontSize:'42px', marginTop:''}}/>
-              <div>ana Sci-Tech</div>
+              <div style={{fontSize:'40px', fontWeight:'800'}}>Beijing Hana Sci-Tech Trade LTD</div>
+              <div style={{fontSize:'28px', fontWeight:'500'}}>北京哈纳科贸有限公司</div>
+            
             </div>
           </div>
-
           <div className="row clearfix">
-            <div className="big-column col-md-6 col-sm-12 col-xs-12">
+            <div className="big-column col-md-6 col-sm-12 col-xs-12" style={{width: '100%'}}>
               <div className="row clearfix">
                 <div className="footer-column col-md-12 col-sm-6 col-xs-12">
                   <div className="footer-widget links-widget">
                     <div className="widget-inner">
                       <div className="links">
-                        <p className="new_footer_heading">China</p>
                         <div className="footer-upper_div new_footer-upper_div">
                           <p
                             itemprop="address"
@@ -52,12 +53,14 @@ export default () => {
                             &nbsp;China{' '}
                               <sapn itemprop="streetAddress">
                                 {' '}
-                                214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China 北京市朝阳区望京西园三区315-316号楼2层E号内214,
+                                214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China
+                                <br/>&nbsp;&nbsp;&nbsp;北京市朝阳区望京西园三区315-316号楼2层E号内214,
                               </sapn>
                             </sapn>
                           </p>
-                          <p>
-                            <FontAwesomeIcon icon={ faPhoneFlip }></FontAwesomeIcon>
+                          <p style={{display:'flex', alignItems:'center'}}>
+                            <MdOutlineContactPhone/>
+                            <a>&nbsp;Wang Xu Dong,</a>
                             <a
                               className="contacts_color"
                               itemprop="telephone"
