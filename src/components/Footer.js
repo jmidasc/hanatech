@@ -70,14 +70,26 @@ export default () => {
                               &nbsp;+8615712806775
                             </a>
                           </p>
+                          <p style={{display:'flex', alignItems:'center'}}>
+                            <MdOutlineContactPhone/>
+                            <a>&nbsp;Yuan Zi You, Flat-203, W Sub Metor, Investment Park-1, Dubai, UAE, </a>
+                            <a
+                              className="contacts_color"
+                              itemprop="telephone"
+                              content="+971524215678"
+                              href="tel:+971524215678"
+                            >
+                              &nbsp;+971524215678
+                            </a>
+                          </p>
                           <p>
                             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                             <a
                               className="contacts_color"
                               itemprop="email"
-                              href="mailto:hi@HanaTech.com"
+                              href="mailto:hi@HanaTech.io"
                             >
-                              &nbsp;hi@HanaTech.com
+                              &nbsp;hi@HanaTech.io
                             </a>
                           </p>
                         </div>
@@ -96,7 +108,7 @@ export default () => {
           <div className="row clearfix">
             <div className="bottom-column col-md-12 col-sm-12 col-xs-12">
               <div className="copyright">
-                Copyright © 2018-2019, HanaTech.com
+                Copyright © 2018-2022, HanaTech.io
               </div>
             </div>
           </div>
