@@ -49,18 +49,18 @@ export default () => {
                             itemtype="http://schema.org/PostalAddress"
                           >
                             <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
-                            <sapn itemprop="addressLocality">
-                            &nbsp;China{' '}
-                              <sapn itemprop="streetAddress">
+                            <sapn itemprop="addressLocality" style={{fontWeight:'700'}}>
+                            &nbsp;&nbsp;China<br/>
+                              <sapn itemprop="streetAddress" style={{fontWeight:'300'}}>
                                 {' '}
-                                214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China
-                                <br/>&nbsp;&nbsp;&nbsp;北京市朝阳区望京西园三区315-316号楼2层E号内214,
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京市朝阳区望京西园三区315-316号楼2层E号内214,
                               </sapn>
                             </sapn>
                           </p>
                           <p style={{display:'flex', alignItems:'center'}}>
                             <MdOutlineContactPhone/>
-                            <a>&nbsp;Wang Xu Dong,</a>
+                            <a>&nbsp;&nbsp;Wang Xu Dong,</a>
                             <a
                               className="contacts_color"
                               itemprop="telephone"
@@ -70,9 +70,23 @@ export default () => {
                               &nbsp;+8615712806775
                             </a>
                           </p>
+                          <p
+                            itemprop="address"
+                            itemScope=""
+                            itemtype="http://schema.org/PostalAddress"
+                          >
+                            <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
+                            <sapn itemprop="addressLocality" style={{fontWeight:'700'}}>
+                            &nbsp;&nbsp;UAE<br/>
+                              <sapn itemprop="streetAddress" style={{fontWeight:'300'}}>
+                                {' '}
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flat-203, W Sub Metor, Investment Park-1, Dubai, UAE
+                              </sapn>
+                            </sapn>
+                          </p>
                           <p style={{display:'flex', alignItems:'center'}}>
                             <MdOutlineContactPhone/>
-                            <a>&nbsp;Yuan Zi You, Flat-203, W Sub Metor, Investment Park-1, Dubai, UAE, </a>
+                            <a>&nbsp;&nbsp;Yuan Zi You,  </a>
                             <a
                               className="contacts_color"
                               itemprop="telephone"
@@ -89,7 +103,7 @@ export default () => {
                               itemprop="email"
                               href="mailto:hi@HanaTech.io"
                             >
-                              &nbsp;hi@HanaTech.io
+                              &nbsp;&nbsp;hi@HanaTech.io
                             </a>
                           </p>
                         </div>
