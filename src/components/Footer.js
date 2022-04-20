@@ -51,14 +51,13 @@ export default () => {
                             <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
                             <sapn itemprop="addressLocality" style={{fontWeight:'700'}}>
                             &nbsp;&nbsp;China<br/>
-                              <sapn itemprop="streetAddress" style={{fontWeight:'300'}}>
-                                {' '}
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China
-                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京市朝阳区望京西园三区315-316号楼2层E号内214,
+                              <sapn itemprop="streetAddress" style={{fontWeight:'300', marginLeft:'25px'}}>
+                                214, 2th Floor, Building 315-316, Wangjing West Park, Chaoyang, Beijing, China
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京市朝阳区望京西园三区315-316号楼2层E号内214
                               </sapn>
                             </sapn>
                           </p>
-                          <p style={{display:'flex', alignItems:'center'}}>
+                          <p style={{display:'flex', alignItems:'center', marginLeft:'25px'}}>
                             <MdOutlineContactPhone/>
                             <a>&nbsp;&nbsp;Wang Xu Dong,</a>
                             <a
@@ -78,13 +77,12 @@ export default () => {
                             <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>
                             <sapn itemprop="addressLocality" style={{fontWeight:'700'}}>
                             &nbsp;&nbsp;UAE<br/>
-                              <sapn itemprop="streetAddress" style={{fontWeight:'300'}}>
-                                {' '}
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flat-203, W Sub Metor, Investment Park-1, Dubai, UAE
+                              <sapn itemprop="streetAddress" style={{fontWeight:'300', marginLeft:'25px'}}>
+                                Flat-203, W Sub Metor, Investment Park-1, Dubai, UAE
                               </sapn>
                             </sapn>
                           </p>
-                          <p style={{display:'flex', alignItems:'center'}}>
+                          <p style={{display:'flex', alignItems:'center', marginLeft:'25px'}}>
                             <MdOutlineContactPhone/>
                             <a>&nbsp;&nbsp;Yuan Zi You,  </a>
                             <a
